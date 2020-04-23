@@ -7,6 +7,15 @@ a.navbar-brand {
   word-break: break-all;
 }
 
+/*.village{
+    background-image:url(vesnice.jpg);
+}
+
+.village {
+    background-position: center;
+    background-size: 100%;
+}*/
+
 /* Provide sufficient contrast against white background */
 a {
   color: #0366d6;

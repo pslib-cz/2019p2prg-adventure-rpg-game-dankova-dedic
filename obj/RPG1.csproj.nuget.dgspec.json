@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Sanchez\\Source\\Repos\\2019p2prg-adventure-rpg-game-dankova-dedic2\\RPG1.csproj": {}
+    "C:\\Users\\katul\\source\\repos\\2019p2prg-adventure-rpg-game-dankova-dedic\\RPG1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Sanchez\\Source\\Repos\\2019p2prg-adventure-rpg-game-dankova-dedic2\\RPG1.csproj": {
+    "C:\\Users\\katul\\source\\repos\\2019p2prg-adventure-rpg-game-dankova-dedic\\RPG1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Sanchez\\Source\\Repos\\2019p2prg-adventure-rpg-game-dankova-dedic2\\RPG1.csproj",
+        "projectUniqueName": "C:\\Users\\katul\\source\\repos\\2019p2prg-adventure-rpg-game-dankova-dedic\\RPG1.csproj",
         "projectName": "RPG1",
-        "projectPath": "C:\\Users\\Sanchez\\Source\\Repos\\2019p2prg-adventure-rpg-game-dankova-dedic2\\RPG1.csproj",
-        "packagesPath": "C:\\Users\\Sanchez\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Sanchez\\Source\\Repos\\2019p2prg-adventure-rpg-game-dankova-dedic2\\obj\\",
+        "projectPath": "C:\\Users\\katul\\source\\repos\\2019p2prg-adventure-rpg-game-dankova-dedic\\RPG1.csproj",
+        "packagesPath": "C:\\Users\\katul\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\katul\\source\\repos\\2019p2prg-adventure-rpg-game-dankova-dedic\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Sanchez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\katul\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -64,7 +64,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
