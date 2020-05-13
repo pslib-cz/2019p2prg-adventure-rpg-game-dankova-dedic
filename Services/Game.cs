@@ -39,5 +39,7 @@ namespace RPG1.Services
             locations.Add(new Location() { ID = 52, Name = "Smrkový ostrov", Description = "Nacházíš se na Smrkovém ostrově." });
             locations.Add(new Location() { ID = 53, Name = "Létající džungle", Description = "Nacházíš se v Létající džungli." });
         }
+
+
     }
 }

@@ -5998,23 +5998,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\katul\\.nuget\\packages\\": {},
+    "C:\\Users\\Sanchez\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\katul\\Source\\Repos\\2019p2prg-adventure-rpg-game-dankova-dedic\\RPG1.csproj",
+      "projectUniqueName": "C:\\Users\\Sanchez\\Source\\Repos\\2019p2prg-adventure-rpg-game-dankova-dedic3\\RPG1.csproj",
       "projectName": "RPG1",
-      "projectPath": "C:\\Users\\katul\\Source\\Repos\\2019p2prg-adventure-rpg-game-dankova-dedic\\RPG1.csproj",
-      "packagesPath": "C:\\Users\\katul\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\katul\\Source\\Repos\\2019p2prg-adventure-rpg-game-dankova-dedic\\obj\\",
+      "projectPath": "C:\\Users\\Sanchez\\Source\\Repos\\2019p2prg-adventure-rpg-game-dankova-dedic3\\RPG1.csproj",
+      "packagesPath": "C:\\Users\\Sanchez\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Sanchez\\Source\\Repos\\2019p2prg-adventure-rpg-game-dankova-dedic3\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\katul\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Sanchez\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -6061,7 +6061,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

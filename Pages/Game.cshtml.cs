@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace RPG1
 {
-    public class FarmModel : PageModel
+    public class GameModel : PageModel
     {
         public void OnGet()
         {

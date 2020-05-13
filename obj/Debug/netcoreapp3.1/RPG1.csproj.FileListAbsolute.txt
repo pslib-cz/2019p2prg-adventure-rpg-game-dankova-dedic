@@ -218,3 +218,13 @@ C:\Users\katul\Source\Repos\2019p2prg-adventure-rpg-game-dankova-dedic\obj\Debug
 C:\Users\katul\Source\Repos\2019p2prg-adventure-rpg-game-dankova-dedic\obj\Debug\netcoreapp3.1\RPG1.csproj.CopyComplete
 C:\Users\katul\Source\Repos\2019p2prg-adventure-rpg-game-dankova-dedic\obj\Debug\netcoreapp3.1\RPG1.dll
 C:\Users\katul\Source\Repos\2019p2prg-adventure-rpg-game-dankova-dedic\obj\Debug\netcoreapp3.1\RPG1.pdb
+C:\Users\Sanchez\Source\Repos\2019p2prg-adventure-rpg-game-dankova-dedic3\obj\Debug\netcoreapp3.1\RPG1.csprojAssemblyReference.cache
+C:\Users\Sanchez\Source\Repos\2019p2prg-adventure-rpg-game-dankova-dedic3\obj\Debug\netcoreapp3.1\staticwebassets\RPG1.StaticWebAssets.Manifest.cache
+C:\Users\Sanchez\Source\Repos\2019p2prg-adventure-rpg-game-dankova-dedic3\obj\Debug\netcoreapp3.1\staticwebassets\RPG1.StaticWebAssets.xml
+C:\Users\Sanchez\Source\Repos\2019p2prg-adventure-rpg-game-dankova-dedic3\obj\Debug\netcoreapp3.1\RPG1.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Sanchez\Source\Repos\2019p2prg-adventure-rpg-game-dankova-dedic3\obj\Debug\netcoreapp3.1\RPG1.RazorAssemblyInfo.cache
+C:\Users\Sanchez\Source\Repos\2019p2prg-adventure-rpg-game-dankova-dedic3\obj\Debug\netcoreapp3.1\RPG1.RazorAssemblyInfo.cs
+C:\Users\Sanchez\Source\Repos\2019p2prg-adventure-rpg-game-dankova-dedic3\obj\Debug\netcoreapp3.1\RPG1.AssemblyInfoInputs.cache
+C:\Users\Sanchez\Source\Repos\2019p2prg-adventure-rpg-game-dankova-dedic3\obj\Debug\netcoreapp3.1\RPG1.AssemblyInfo.cs
+C:\Users\Sanchez\Source\Repos\2019p2prg-adventure-rpg-game-dankova-dedic3\obj\Debug\netcoreapp3.1\RPG1.dll
+C:\Users\Sanchez\Source\Repos\2019p2prg-adventure-rpg-game-dankova-dedic3\obj\Debug\netcoreapp3.1\RPG1.pdb
