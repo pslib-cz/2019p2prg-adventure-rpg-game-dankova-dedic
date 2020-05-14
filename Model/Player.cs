@@ -3,12 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace RPG1.Model
+namespace RPG.Models
 {
     public class Player
     {
-        public string Name { get; set; }
-        public double HP { get; set; }
-        public double Dmg { get; set; }
+        public int HP { get; set; }
     }
 }

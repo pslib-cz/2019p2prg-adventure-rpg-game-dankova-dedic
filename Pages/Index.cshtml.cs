@@ -5,21 +5,26 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.Extensions.Logging;
+using RPG.Services;
+using RPG.Models;
 
-namespace RPG1.Pages
+namespace RPG.Pages
 {
     public class IndexModel : PageModel
     {
-        private readonly ILogger<IndexModel> _logger;
-
-        public IndexModel(ILogger<IndexModel> logger)
+        public readonly SessionStorage _ss;
+        public IndexModel(SessionStorage ss)
         {
-            _logger = logger;
+            _ss = ss;
         }
 
         public void OnGet()
         {
 
+        }
+        public ActionResult OnPost()
+        {
+            return RedirectToPage("./Game");
         }
     }
 }

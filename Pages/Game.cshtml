@@ -1,8 +1,16 @@
 ﻿@page
-@model RPG1.GameModel
-@{
-    ViewData["Title"] = "Game";
+@model RPG.Pages.Game
+@{ ViewData["Title"] = "Game";
 }
+    <p>@Model._place.locations[Model.index].Description</p>
 
-<h1>Game</h1>
-
+    <form method="post">
+        @for (int i = 0; i < @Model._place.locations[Model.index].Path.Length; i++)
+        {
+        <div class="form-check">
+            <label class="form-check-label" asp-for="@Model.index">
+                <button type="submit" name="index" value="@Model._place.locations[Model._place.locations[Model.index].Path[i]].ID">@Model._place.locations[Model._place.locations[Model.index].Path[i]].Way</button>
+            </label>
+        </div>
+        }
+    </form>

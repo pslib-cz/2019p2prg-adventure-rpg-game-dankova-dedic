@@ -9,9 +9,9 @@ using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using RPG1.Services;
+using RPG.Services;
 
-namespace RPG1
+namespace RPG
 {
     public class Startup
     {

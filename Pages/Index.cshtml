@@ -1,13 +1,12 @@
 ﻿@page
 @model IndexModel
-@{
-    ViewData["Title"] = "Home page";
+@{ /**/
+                ViewData["Title"] = "Start";
 }
-<body class="village">
     <div class="text-center">
-        <h1 class="display-4">Vesnice</h1>
-        <form method="post">
-            <button asp-page="./Game">Jít na farmu a započít dobrodružství</button>
-        </form>
+        <p> To ses takhle jednoho krásného rána probral a nemáš ponětí, kde vůbec jsi. Dokážeš zjistit co se stalo a z tohohle prapodivného bludu se dostat?</p>
+        @*<p>funkční tag</p>*@
     </div>
-    </body>
+<form method="post">
+    <button type="submit" class="btn btn-primary">Začít hru!</button>
+</form>

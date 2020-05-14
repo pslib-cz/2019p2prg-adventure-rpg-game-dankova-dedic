@@ -3,8 +3,10 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Utf8Json;
+using Utf8Json.Resolvers;
 
-namespace RPG1.Helpers
+namespace RPG.Helpers
 {
     public static class SessionExtensions
     {
