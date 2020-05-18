@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.Extensions.Logging;
 using RPG.Services;
-using RPG.Models;
+using RPG.Model;
 
 namespace RPG.Pages
 {
@@ -21,10 +21,6 @@ namespace RPG.Pages
         public void OnGet()
         {
 
-        }
-        public ActionResult OnPost()
-        {
-            return RedirectToPage("./Game");
         }
     }
 }

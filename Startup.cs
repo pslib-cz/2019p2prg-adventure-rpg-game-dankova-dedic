@@ -30,6 +30,7 @@ namespace RPG
             services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
             services.AddScoped<SessionStorage>();
             services.AddRazorPages();
+            services.AddTransient<GameLogic>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
