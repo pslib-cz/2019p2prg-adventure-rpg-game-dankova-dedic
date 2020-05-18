@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using RPG.Model;
 
 namespace RPG.Model
 {
@@ -9,14 +10,12 @@ namespace RPG.Model
     {
         public int ID { get; set; }
         public string Description { get; set; }
-        public string Way { get; set; }
-        public int[] Path { get; set; }
-        public Location(int id, int[] paths, string way, string description)
+        public List<Path> Paths { get; set; }
+        public Location(int id, string description, List<Path> paths)
         {
             this.ID = id;
-            this.Path = paths;
-            this.Way = way;
             this.Description = description;
+            this.Paths = paths;
         }
     }
 }
