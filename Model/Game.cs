@@ -8,11 +8,9 @@ namespace RPG.Services
 {
     public class Game
     {
-        private readonly SessionStorage _ss;
         public List<Location> locations = new List<Location>();
-        public Game(SessionStorage ss)
+        public Game()
         {
-            _ss = ss;
             locations.Add(new Location(0, new int[] { 1 }, "Hrát znovu!", "Vůbec nevíš kde jsi a jak si se tu ocitl. Jediný co si pamatuješ je, že si včera večer usnul s nohama na stole, když jsi sledoval hokej. Při snaze vstát se ti divně klepou nohy..."));
             locations.Add(new Location(1, new int[] { 2 }, "Porozhlédnot se kolem", "Hmmmmm... V dáli spatříš vesncici - starou a středověkou. Rozhodneš se do ní jít..."));
             locations.Add(new Location(2, new int[] { 3 }, "Zajít do vesnice", "Pomalu procházíš vesnicí. Dojdeš až na náměstí,je liduprázdné a vedle kašny je stará mapa. Pozorně se na ni podíváš a vidíš nějaké divné ostrovy ve vzduchu... Co to sakra je???"));

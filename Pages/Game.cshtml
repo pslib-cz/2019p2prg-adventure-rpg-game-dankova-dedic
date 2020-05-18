@@ -4,7 +4,7 @@
 }
 <p>@Model.Location.Description</p>
 
-@*@for (int i = 0; i < @Model._place.locations[Model.index].Path.Length; i++)
+@for (int i = 0; i < @Model.Location.Path.Length; i++)
 {
-    <a asp-route-to="@Model._place.locations[Model._place.locations[Model.index].Path[i]].ID" asp-handler class="btn btn-secondary">@Model._place.locations[Model._place.locations[Model.index].Path[i]].Way</a>
-}*@
+    <a asp-route-to="@Model.Location.Path[i]" asp-handler class="btn btn-secondary">@Model.Location.Way</a>
+}
