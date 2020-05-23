@@ -28,7 +28,7 @@ namespace RPG
             services.AddDistributedMemoryCache();
             services.AddSession();
             services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
-            services.AddScoped<SessionStorage>();
+            services.AddTransient<SessionStorage>();
             services.AddRazorPages();
             services.AddTransient<GameLogic>();
             services.AddSingleton<Game>();

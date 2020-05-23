@@ -7,6 +7,7 @@ namespace RPG.Model
 {
     public class Player
     {
-        public int HP { get; set; }
+        public int HP { get; set; } = 10;
+        public bool Sword { get; set; } = false;
     }
 }

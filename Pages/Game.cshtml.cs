@@ -14,19 +14,22 @@ namespace RPG.Pages
         public Location Location { get; set; }
         public GameLogic _gamelogic;
         public SessionStorage _session;
-        public readonly Services.Game _place;
-        public int index { get; set; }
+        public Player _player { get; set; }
 
         public Game(GameLogic gamelogic, SessionStorage session)
         {
             _gamelogic = gamelogic;
             _session = session;
-            _place = new Services.Game();
-            index = 0;
         }
 
         public void OnGet(int to)
         {
+            _player = _gamelogic._player;
+            Location = _gamelogic.Play(to);
+        }
+        public void OnGetWeapon(int to)
+        {
+            _gamelogic.Weapon();
             Location = _gamelogic.Play(to);
         }
     }
