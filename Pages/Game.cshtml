@@ -3,15 +3,43 @@
 @{ ViewData["Title"] = "Game";
 }
 <p>@Model.Location.Description</p>
-<ul id="list">Tvé statistiky
-    <li>HP: @Model._player.HP</li>
+<ul id="list" class="purple">
+    Tvé statistiky
+
+    @switch (Model._player.HP)
+    {
+        case 10:
+        case 9:
+            <li class="green">HP: @Model._player.HP</li>
+            break;
+        case 8:
+        case 7:
+            <li class="yellow">HP: @Model._player.HP</li>
+            break;
+        case 6:
+        case 5:
+            <li class="orange">HP: @Model._player.HP</li>
+            break;
+        case 4:
+        case 3:
+            <li class="red">HP: @Model._player.HP</li>
+            break;
+        case 2:
+        case 1:
+            <li class="brown">HP: @Model._player.HP</li>
+            break;
+        case 0:
+            <li class="black">HP: @Model._player.HP</li>
+            break;
+    }
+
     @if (Model._player.Sword == true)
     {
-        <li>Ozbrojen: Ano</li>
+        <li class="green">Ozbrojen: Ano</li>
     }
     @if (Model._player.Sword == false)
     {
-        <li>Ozbrojen: Ne</li>
+        <li class="red">Ozbrojen: Ne </li>
     }
 </ul>
 
