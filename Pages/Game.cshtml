@@ -3,16 +3,16 @@
 @{ ViewData["Title"] = "Game";
 }
 <p>@Model.Location.Description</p>
-<ul>Tvé statistiky
+<ul id="list">Tvé statistiky
     <li>HP: @Model._player.HP</li>
-    @*@if (Model._player.Sword == true)
+    @if (Model._player.Sword == true)
     {
         <li>Ozbrojen: Ano</li>
-    };
+    }
     @if (Model._player.Sword == false)
     {
         <li>Ozbrojen: Ne</li>
-    };*@
+    }
 </ul>
 
 

@@ -23,15 +23,31 @@ namespace RPG.Services
 
         public Location Play(int path)
         {
+            if (path == 16)
+            {
+                _player.Sword = true;
+            }
+
+            if(path == 17)
+            {
+                _player.HP -= 5;
+
+            }
+            if(path == 21)
+            {
+                _player.HP -= 4;
+            }
+            if(path == 19 || path == 24 || path == 26)
+            {
+                _player.HP = 1;
+            }
+            if(path == 25 || path == 38)
+            {
+                _player.HP -= 2;
+            }
             _session.SavePlayer(_player);
             return _game.locations[path];
 
-        }
-
-        public void Weapon()
-        {
-            _player.Sword = true;
-            _session.SavePlayer(_player);
         }
     }
 }

@@ -13,6 +13,7 @@ namespace RPG.Pages
     public class IndexModel : PageModel
     {
         public readonly SessionStorage _ss;
+        public Player _player { get; set; }
         public IndexModel(SessionStorage ss)
         {
             _ss = ss;
@@ -20,7 +21,8 @@ namespace RPG.Pages
 
         public void OnGet()
         {
-
+            _player = new Player();
+            _ss.SavePlayer(_player);
         }
     }
 }

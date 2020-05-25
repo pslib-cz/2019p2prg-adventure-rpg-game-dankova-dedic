@@ -27,10 +27,5 @@ namespace RPG.Pages
             _player = _gamelogic._player;
             Location = _gamelogic.Play(to);
         }
-        public void OnGetWeapon(int to)
-        {
-            _gamelogic.Weapon();
-            Location = _gamelogic.Play(to);
-        }
     }
 }
