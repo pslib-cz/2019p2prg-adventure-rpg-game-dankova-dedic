@@ -88,7 +88,7 @@ body {
 }
 
 .green {
-    color: forestgreen;
+    color: forestgreen !important;
 }
 
 .yellow {
@@ -109,5 +109,14 @@ body {
 }
 
 .purple {
-    color: #5c5470;
+    color: #5c5470 !important;
+}
+
+.imgsmall {
+    max-width: 70%;
+    max-height 70%;
+    float: right;
+}
+.btn {
+    margin: 5px
 }

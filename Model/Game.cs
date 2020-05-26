@@ -41,7 +41,7 @@ namespace RPG.Services
             locations.Add(new Location(24, "No... co si budem... Vyjednávání s pavoukem není moc chytré... kor když nemluví.. Kousl tě, zamotá se ti hlava a... zbytek znáš, je to přeci jen jedovatej pavouk ne?",  new List<Path>() { new Path() { IDofPath = 0, DescriptionofPath = "Hrát znovu!" } } ));  // Dead 2 
             locations.Add(new Location(25, "Použil jsi meč, ale pavouk tě kousl do nohy.... a ještě k tomu ti zničil meč",  new List<Path>() { new Path() { IDofPath = 27, DescriptionofPath = "Pokračovat v tůře přes jeskyni" } } ));
             locations.Add(new Location(26, "No... jako... nevím co chceš v lese na paloučku dělat.... schovat se za kámen? (xd) Zkus to třeba příště 😞",  new List<Path>() { new Path() { IDofPath = 0, DescriptionofPath = "Hrát znovu!" } } ));  // Dead 3
-            locations.Add(new Location(27, "Vejdeš do jeskyně a proplahočíš se tím vším pavoučím hnusem až na druhou stranu",  new List<Path>() { new Path() { IDofPath = 28, DescriptionofPath = "Jít dál" } } ));
+            locations.Add(new Location(27, "Vejdeš do jeskyně a proplahočíš se tím vším pavoučím hnusem až skoro na druhou stranu",  new List<Path>() { new Path() { IDofPath = 44, DescriptionofPath = "Jít dál" } } ));
             
             locations.Add(new Location(28, "Snad sis vybral správně... před sebou vidíš cestičku... yay",  new List<Path>() { new Path() { IDofPath = 30, DescriptionofPath = "Jít dál svou cestou necestou" } } ));
             locations.Add(new Location(29, "Po cestičce pokračuješ dál a nalevo vidíš východ z jeskyně... fuj... tam snad nikdy nebudeš muset jít",  new List<Path>() { new Path() { IDofPath = 30, DescriptionofPath = "Jít dál svou cestou necestou" } } ));
@@ -62,6 +62,13 @@ namespace RPG.Services
             locations.Add(new Location(42, "Však... nemáš meč... :/... Achju... To jsi asi mrtvej, co?", new List<Path>() { new Path() { IDofPath = 0, DescriptionofPath = "Hrát znovu!" } }));
             locations.Add(new Location(43, "Drak ani neudělal ble a je po něm. Huráááááá!", new List<Path>() { new Path() { IDofPath = 39, DescriptionofPath = "Vydat se nazpátek do vesnice" } }));
 
+
+            locations.Add(new Location(44, "Vypadá to, že těm pavoukům není konec... před tebou se znenadání objevuje obří tarantule a tebe obklíčilo něco, co vypadá jako její vojsko...", new List<Path>() { new Path() { IDofPath = 45, DescriptionofPath = "Vyjednávat" }, new Path() { IDofPath = 38, DescriptionofPath = "Zaměřit se na vojáky a všechny je těžce zbít" }, new Path() { IDofPath = 48, DescriptionofPath = "Nadělat si do trenek" } }));
+            locations.Add(new Location(45, "Pavouk si vyslechl tvůj příběh a uznává, že jsi krutý a velice (PŘEVELICE!!!!!!!) silný (A HLAVNĚ MUŽNÝ!!!!!) válečník, se kterým si není radno si zahrávat. Nechává tě tak projít, ale pouze jen, když porazíš jeho nejsilnějšího pavouka v souboji bez zbraní.", new List<Path>() { new Path() { IDofPath = 46, DescriptionofPath = "Takzvaně 'fajtit' (fightit)" }, new Path() { IDofPath = 47, DescriptionofPath = "Utéct"} }));
+            locations.Add(new Location(46, "Těžce si pavouka zbil a je mrtvej... Při boji tě však kousl do nohy a tak ti ubude pár HP :(", new List<Path>() { new Path() { IDofPath = 28, DescriptionofPath = "Jít dál" } }));
+            locations.Add(new Location(47, "Pavouk tě chytl za ruku a pořádně tě sekl.", new List<Path>() { new Path() { IDofPath = 47, DescriptionofPath = "Znova utéct" }, new Path() { IDofPath = 46, DescriptionofPath = "Zbít ho fakt joo" } }));
+
+            locations.Add(new Location(48, "Dobrej tah... Nebo bych měl říct dobře zahráno(zahnáno)? Všichni pavouci utekli a ty pokračuješ dále jeskyní", new List<Path>() { new Path() { IDofPath = 28, DescriptionofPath = "Pokračovat jeskyní" } }));
         }
     }
 }

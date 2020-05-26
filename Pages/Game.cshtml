@@ -41,10 +41,38 @@
     {
         <li class="red">Ozbrojen: Ne </li>
     }
+    @if (Model._player.Trenky == false)
+    {
+        <li class="brown">Trenky: No... ty víš...</li>
+    }
+
 </ul>
 
 
 @foreach (var i in @Model.Location.Paths)
 {
-    <a asp-route-to="@i.IDofPath" asp-handler class="btn btn-secondary">@i.DescriptionofPath</a>
+    <a asp-route-to="@i.IDofPath" asp-handler class="btn btn-secondary">@i.DescriptionofPath</a><br />
+
+}
+
+@if (Model.Location.ID == 3)
+{
+    <img class="imgsmall" src="~/css/mapa.png" />
+}
+
+@if (Model.Location.ID == 40)
+{
+    <p class="purple">Gratulujeme, získal jsi tyto achievementy!</p>
+    if (Model._player.HP == 10)
+    {
+        <p class="green">Hra dohrána bez ztráty HP!</p>
+    }
+    if (Model._player.Sword == true)
+    {
+        <p class="green">Hra dohrána s mečem!</p>
+    }
+    if (Model._player.Trenky == false)
+    {
+        <p class="green">Hra dohrána s podělanými trenkami, gratuluji!</p>
+    }
 }

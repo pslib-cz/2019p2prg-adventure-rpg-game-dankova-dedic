@@ -18,7 +18,7 @@ namespace RPG.Services
         {
             _session = session;
             _game = game;
-            _player = new Player() { HP = _session._player.HP, Sword = _session._player.Sword };
+            _player = new Player() { HP = _session._player.HP, Sword = _session._player.Sword, Trenky = _session._player.Trenky };
         }
 
         public Location Play(int path)
@@ -44,15 +44,27 @@ namespace RPG.Services
                     _player.HP -= 5;
                     break;
                 case 21:
+                case 46:
                     _player.HP -= 4;
+                    break;
+                case 47:
+                    _player.HP -= 2;
+                    break;
+                case 48:
+                    _player.Trenky = false;
                     break;
             }
 
-            if(path == 38 && _player.Sword == false)
+            //insta kill (takzvané ÍKáčko ;) )
+            if (path == 38 && _player.Sword == false)
             {
                  path = 42;
             }
 
+            if( _player.HP == 0)
+            {
+                path = 19;
+            }
             _session.SavePlayer(_player);
             return _game.locations[path];
 
